@@ -13,8 +13,8 @@ import Typography from "@material-ui/core/Typography";
 import project1 from "../images/html-css-javascript-lg.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
+import project4 from "../images/connect4.png";
+import project5 from "../images/chess.png";
 import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
@@ -31,50 +31,75 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "Computer Science Hoodie",
-    description: `As a first year student, I did not like our faculty hoodie\
-    I found it to be too boring. In 2021, I decided to attempt a complete redesign.\
-    After 160+ emails and countless issues and arguments. It was finally done`,
+    description: `Over the course of a year, I have lead the initiative of redesigning our faculty\
+    hoodie for the purpose of creating more awareness of Computer Science on campus at\
+    Stellenbosch University. This included countless emails, setting up contracts with our sponsor, AWS, and\
+    facilitating orders made by the undergrad students.`,
     image: project1,
+    button1: "Album",
+    button2: "",
+    link1: "https://imgur.com/a/PI0KLGa",
+    link2: "https"
   },
   {
     name: "Honours Project",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `For my Honours project in 2022, I developed an interactive Dashboard\
+    using Plotly Dash. This dashboard visualized climate and phenological data collected\
+    from various vineyards, with the purpose of using plant and environmental variables to predict\
+    climate change.`,
     image: project2,
+    button1: "Report",
+    button2: "Presentation",
+    link1: "https://github.com/swaggermaestro/Terraclim-Dash/blob/3edbf01a356999bac3cecc98afcea2b4d79dbc82/22546510HonoursProjectFinalReport.pdf/",
+    link2: "https://github.com/swaggermaestro/Terraclim-Dash/blob/3edbf01a356999bac3cecc98afcea2b4d79dbc82/SimeonPresentationFinal.pdf/"
   },
   {
     name: "Particle Swarm Optimization",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `The honours module, Artificial Intelligence, did not really cover the inner workings\
+    of neural net and convolutional layers in depth, however the focus was on Particle Swarm Optimization. This is a\
+    unique technique used to solve a variety of different functions, where many particles search for the global minima.\
+    This was the first time I have used LaTeX, and I am quite proud of my reports.`,
     image: project3,
+    button1: "Report 2",
+    button2: "Report 3",
+    link1: "https://github.com/swaggermaestro/Terraclim-Dash/blob/07a8d76f8df3018dbebd66fc2194ba3b352c5105/22546510assignment2.pdf",
+    link2: "https://github.com/swaggermaestro/Terraclim-Dash/blob/07a8d76f8df3018dbebd66fc2194ba3b352c5105/22546510assignment3.pdf"
   },
   {
-    name: "Project 4",
+    name: "Connect 4 (Thor)",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project4,
+    button1: "",
+    button2: "",
+    link1: "https://leekspin.com/",
+    link2: "https"
   },
   {
-    name: "Fairy Chess",
+    name: "Star Wars Chess",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project5,
+    button1: "",
+    button2: "",
+    link1: "https://leekspin.com/",
+    link2: "https"
   },
   {
-    name: "Connect Thor",
+    name: "Functional Programming",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project6,
+    button1: "Assignment 1",
+    button2: "Assignment 2",
+    link1: "https://github.com/swaggermaestro/Terraclim-Dash/blob/07a8d76f8df3018dbebd66fc2194ba3b352c5105/22546510ReportAssignment1.pdf",
+    link2: "https://github.com/swaggermaestro/Terraclim-Dash/blob/07a8d76f8df3018dbebd66fc2194ba3b352c5105/22546510ReportAssignment2.pdf"
   },
 ];
 
@@ -104,11 +129,11 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button href = {project.link1} target="_blank" rel="noopener noreferrer" size="small" color="primary">
+                  {project.button1}
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                <Button href = {project.link2} target="_blank" rel="noopener noreferrer" size="small" color="primary">
+                  {project.button2}
                 </Button>
               </CardActions>
             </Card>

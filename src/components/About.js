@@ -68,37 +68,8 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
+            More about me
           </Typography>
-          <InputField
-            fullWidth={true}
-            label="Name"
-            variant="outlined"
-            inputProps={{ className: classes.input }}
-          />
-          <InputField
-            fullWidth={true}
-            label="Email"
-            variant="outlined"
-            inputProps={{ className: classes.input }}
-            className={classes.field}
-          />
-          <InputField
-            fullWidth={true}
-            label="Message"
-            variant="outlined"
-            multiline
-            rows={4}
-            inputProps={{ className: classes.input }}
-          />
-          <Button
-            variant="outlined"
-            fullWidth={true}
-            endIcon={<Send />}
-            className={classes.button}
-          >
-            Contact Me
-          </Button>
         </Box>
       </Grid>
     </Box>
