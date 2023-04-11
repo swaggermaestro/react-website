@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   cardContainer: {
-    maxWidth: 345,
+    maxWidth: 500,
     margin: "3rem auto",
   },
 }));
@@ -67,10 +67,9 @@ const projects = [
   },
   {
     name: "Connect 4 (Thor)",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `For our first Computer Science project, we had to create\
+    a playable game of Connect 4, with a GUI, written in Java. I thought that Connect Thor\
+    would be a fitting theme, and it turned out great! This is arguably where my passion for UI design started.`,
     image: project4,
     button1: "",
     button2: "",
@@ -79,10 +78,9 @@ const projects = [
   },
   {
     name: "Star Wars Chess",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `This was probably the most fun I have had in a Computer Science project.\
+    We had to create a playable game of "Fairy Chess", which was just an extended version of normal chess\
+    with a few extra rules. I decided to make a Star Wars themed version, and was very proud of final product.`,
     image: project5,
     button1: "",
     button2: "",
@@ -91,10 +89,9 @@ const projects = [
   },
   {
     name: "Functional Programming",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    description: `Functional programming was one of my favourite modules in my final year. We worked with the Haskell language,\
+    and did an in-depth study of how functional programming can aid in making normal tasks easier. This was the first time I\
+    worked with such a language, and I consider it to be a very powerful tool.`,
     image: project6,
     button1: "Assignment 1",
     button2: "Assignment 2",

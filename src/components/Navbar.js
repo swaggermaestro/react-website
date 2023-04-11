@@ -14,6 +14,8 @@ import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import MenuIcon from "@material-ui/icons/Menu";
 import AssignmentInd from "@material-ui/icons/AssignmentInd";
+import ScienceIcon from '@material-ui/icons/Android';
+import Money from '@material-ui/icons/Money';
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
@@ -54,6 +56,8 @@ const menuItems = [
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "About", listPath: "/about" },
+  { listIcon: <ScienceIcon />, listText: "Sandbox", listPath: "/sandbox" },
+  { listIcon: <Money />, listText: "Crypto", listPath: "/crypto" },
 ];
 
 const Navbar = () => {

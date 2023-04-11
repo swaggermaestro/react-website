@@ -146,7 +146,8 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             Starting my career off as a Graduate Software Engineer at Entelect in January, 2023. 
-            I will be attending the bootcamp in Johannesburg. Thereafter, based in Cape town.
+            I have attended the Bootcamp at the Joburg HQ and am now based in Cape town. Currently 
+            assigned to the FNZ OneX Momemtum project.
           </Typography>
         </Box>
 
@@ -267,10 +268,28 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            90% Average (8 Destinctions)
+            Subjects : Mathematics, Physical Sciences, Accounting, Alpha
+            Mathematics, Afrikaans Home Language, English First Additio-
+            nal Language, Life Orientation.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            display="block"
+            className={classes.subtitle2}
+          >
+            Achievements and awards:<br></br>
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            display="block"
+            className={classes.subtitle1}
+          >
+            Top 20 Academic Ranking 2018<br></br>
+            National Team Orators Champions 2016-2018<br></br>
+            National IT Expo Gold 2018<br></br>
           </Typography>
         </Box>
 

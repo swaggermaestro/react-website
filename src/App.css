@@ -5,3 +5,70 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.game {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bodyGame {
+  display: flex;
+}
+
+.help {
+  color: #666;
+  margin: 10px;
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.star {
+	display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: url("https://i.imgur.com/ukXeime.png");
+  font-size: 45px;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #000000;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus, .number:active {
+  outline: none;
+  border: thin solid #000000;
+}
+
+.timer {
+	color: #666;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}

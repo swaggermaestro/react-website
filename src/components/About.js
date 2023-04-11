@@ -4,20 +4,29 @@ import Box from "@material-ui/core/Box";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
-
-import Send from "@material-ui/icons/Send";
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
     background: "#233",
-    height: "100vh",
+    height: "94vh",
+  },
+  mainContainer: {
+    background: "#233",
+    height: "100%",
+    // height: "95vh",
+    position: "absolute",
   },
   heading: {
+    paddingTop: "3rem",
     color: "tomato",
     textAlign: "center",
     textTransform: "uppercase",
     marginBottom: "1rem",
+  },
+  plainText: {
+    margin: "2rem",
+    color: "white",
+    textAlign: "center",
   },
   form: {
     top: "50%",
@@ -64,14 +73,21 @@ const InputField = withStyles({
 const Contact = () => {
   const classes = useStyles();
   return (
-    <Box component="div" className={classes.contactContainer}>
+    <Box component="div" className={classes.mainContainer}>
       <Grid container justify="center">
-        <Box component="form" className={classes.form}>
-          <Typography variant="h5" className={classes.heading}>
+      <Typography variant="h5" className={classes.heading}>
             More about me
           </Typography>
-        </Box>
-      </Grid>
+
+          <Typography className={classes.plainText}>
+            My name is Simeon, and I am a 22-year-old Software Engineer residing in Cape Town, South Africa. I'm originally from Centurion, Pretoria, and I completed my BSc Honours degree in Computer Science at Stellenbosch University.
+            I consider my top skill to be how I work with people. In the IT industry, there exists a common disconnect between the professionals developing a product and the consumers using it. I consider myself to be a bridge between these two entities, 
+            as I aspire to create usable, efficient, and consumer-focused software. 
+            <br/>
+            <br/>
+            My long-term goal is simply to make a positive impact on the lives of everyday South Africans. I am highly optimistic about our country, and I believe that if we string together, we can achieve anything.
+          </Typography>
+          </Grid>
     </Box>
   );
 };
