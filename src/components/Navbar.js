@@ -18,9 +18,10 @@ import ScienceIcon from '@material-ui/icons/Android';
 import Money from '@material-ui/icons/Money';
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
+import Programming from "@material-ui/icons/Code";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../avatar.png";
+import avatar from "../simeon.png";
 
 import Footer from "../components/Footer";
 
@@ -58,6 +59,7 @@ const menuItems = [
   { listIcon: <ContactMail />, listText: "About", listPath: "/about" },
   { listIcon: <ScienceIcon />, listText: "Sandbox", listPath: "/sandbox" },
   { listIcon: <Money />, listText: "Crypto", listPath: "/crypto" },
+  { listIcon: <Programming />, listText: "Progamming", listPath: "/programming-languages" },
 ];
 
 const Navbar = () => {

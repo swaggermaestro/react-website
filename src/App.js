@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Sandbox from "./components/Sandbox";
 import Crypto from "./components/Crypto";
+import Programming from "./components/Programming";
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/sandbox" component={Sandbox} />
         <Route exact path="/crypto" component={Crypto} />
+        <Route exact path="/programming-languages" component={Programming} />
       </Switch>
     </React.Fragment>
   );
