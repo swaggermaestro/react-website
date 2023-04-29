@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aeb8c7c69fa189e3e176a9a34570c4a9",
+    "revision": "347edf7317b5056d451eb755a412f9f6",
     "url": "/index.html"
   },
   {
-    "revision": "6f32db3b8feda8551849",
-    "url": "/static/css/main.5d46f553.chunk.css"
+    "revision": "312c2b0bec31fec23a1c",
+    "url": "/static/css/main.17326d83.chunk.css"
   },
   {
-    "revision": "9e888a2b52a43ccd3b5c",
-    "url": "/static/js/2.d48d9c44.chunk.js"
+    "revision": "d89b91b2442b8a83b610",
+    "url": "/static/js/2.75cda346.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/static/js/2.d48d9c44.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.75cda346.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f32db3b8feda8551849",
-    "url": "/static/js/main.cee977ce.chunk.js"
+    "revision": "312c2b0bec31fec23a1c",
+    "url": "/static/js/main.f5d5f032.chunk.js"
   },
   {
-    "revision": "46851dcc51eb78b9b111",
-    "url": "/static/js/runtime-main.99510279.js"
+    "revision": "ce439d488913ddca6a6f",
+    "url": "/static/js/runtime-main.48a7c4ec.js"
+  },
+  {
+    "revision": "4c5fc1200d7710f7d5b987eac9887220",
+    "url": "/static/media/camps.4c5fc120.png"
   },
   {
     "revision": "cfdb9df3ca50f4ec1bb410594600473c",
@@ -44,12 +48,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/javascript-fullstack.0177d53e.jpg"
   },
   {
+    "revision": "deeb2ef26be3914da98de130d228fee8",
+    "url": "/static/media/palms1.deeb2ef2.png"
+  },
+  {
+    "revision": "3a2c46af157195fca3112f0955dfb7f0",
+    "url": "/static/media/paraglide1.3a2c46af.png"
+  },
+  {
     "revision": "a0a99a68b2e97629ea828b69072b0071",
     "url": "/static/media/react.a0a99a68.png"
   },
   {
     "revision": "eff4d024b4bbbab9da258dbbedec4a08",
     "url": "/static/media/simeon.eff4d024.png"
+  },
+  {
+    "revision": "94061ba2f3f3e970afaa9de3a9b55a4c",
+    "url": "/static/media/sunset1.94061ba2.png"
+  },
+  {
+    "revision": "1ba4b939b15d56d0631670bb5f80a191",
+    "url": "/static/media/table1.1ba4b939.png"
   },
   {
     "revision": "611f5674221673f6322ffbb38c0642d4",
