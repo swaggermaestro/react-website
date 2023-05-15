@@ -92,4 +92,69 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+const useStyles2 = makeStyles((theme) => ({
+  bigContainer: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexWrap: "wrap",
+    padding: "1rem",
+    width: "100%",
+    height: "40rem", // Change height to full viewport height
+  },
+  sandboxContainer: {
+      background: "#233",
+      textAlign: "center",
+      position: "relative",
+      margin: "1rem",
+      borderRadius: "10px",
+      padding: "1rem",
+      flex: "1 0 auto",
+      minWidth: "40rem",
+      maxWidth: "40rem",
+  },
+
+  imgStyle: {
+      alignItems: "center",
+      width: "90%",
+      borderRadius: "10px",
+      margin: "1rem",
+    },
+
+    captionStyle: {
+      color: "tomato",
+    },
+
+    textStyle: {
+      color: "white",
+    }
+}));
+
+const Photos = () => {
+  const classes = useStyles2();
+  return (
+      <div className={classes.bigContainer}>
+          <div className="box">
+          <Typography variant="h5" className={classes.captionStyle}>
+            More about me
+          </Typography>
+          <br></br>
+
+          <Typography className={classes.textStyle}>
+            My name is Simeon, and I am a 22-year-old Software Engineer residing in Cape Town, South Africa. I'm originally from Centurion, Pretoria, and I completed my BSc Honours degree in Computer Science at Stellenbosch University.
+            I consider my top skill to be how I work with people. In the IT industry, there exists a common disconnect between the professionals developing a product and the consumers using it. I consider myself to be a bridge between these two entities, 
+            as I aspire to create usable, efficient, and consumer-focused software. 
+            <br/>
+            <br/>
+            My long-term goal is simply to make a positive impact on the lives of everyday South Africans. I am highly optimistic about our country, and I believe that if we string together, we can achieve anything.
+          </Typography>
+          </div>
+              
+
+      </div>
+
+  );
+};
+
+
+export default Photos;

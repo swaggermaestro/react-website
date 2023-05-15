@@ -1,8 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Box from "@material-ui/core/Box";
-import { DebianPlainWordmark } from "react-devicon";
-import { Category } from "@material-ui/icons";
 
 
 const useStyles = makeStyles((theme) => ({

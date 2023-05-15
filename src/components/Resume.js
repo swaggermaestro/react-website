@@ -145,9 +145,9 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Starting my career off as a Graduate Software Engineer at Entelect in January, 2023. 
-            I have attended the Bootcamp at the Joburg HQ and am now based in Cape town. Currently 
-            assigned to the FNZ OneX Momemtum project.
+            Starting my career off as a Graduate Software Engineer at Entelect in January 2023. 
+            I have attended the Bootcamp at the Joburg HQ and am now based in Cape Town. Currently 
+            assigned to the FNZ OneX project for Momentum and Stanlib.
           </Typography>
         </Box>
 
@@ -175,8 +175,8 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             I completed the course in the prescribed 1 year and obtained an overall average of 67%.
-            Extracurricular activities included House Committee of Huis Marais residence
-            and reforming the Computer Science brand on Campus through redesigning the 
+            Extracurricular activities included the House Committee of Huis Marais residence
+            and reforming the Computer Science brand on Campus by redesigning the 
             hoodie. I was also an academic mentor throughout the year.
 
           </Typography>
@@ -196,7 +196,7 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             Entersekt Launchlab Hackathon 2nd Place 2022<br></br>
-            Entelect University Hacathon 4th Place 2022<br></br>
+            Entelect University Hackathon 4th Place 2022<br></br>
           </Typography>
         </Box>
 
@@ -268,10 +268,9 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            90% Average (8 Destinctions)
-            Subjects : Mathematics, Physical Sciences, Accounting, Alpha
-            Mathematics, Afrikaans Home Language, English First Additio-
-            nal Language, Life Orientation.
+            90% Average (8 Distinctions)
+            Subjects: Mathematics, Physical Sciences, Accounting, Alpha
+            Mathematics, Afrikaans Home Language, English First Additional Language, Life Orientation.
           </Typography>
           <Typography
             variant="subtitle1"

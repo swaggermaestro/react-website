@@ -24,6 +24,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../simeon.png";
 
 import Footer from "../components/Footer";
+import { PhotoAlbum } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -56,10 +57,12 @@ const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "About", listPath: "/about" },
-  { listIcon: <ScienceIcon />, listText: "Sandbox", listPath: "/sandbox" },
-  { listIcon: <Money />, listText: "Crypto", listPath: "/crypto" },
   { listIcon: <Programming />, listText: "Progamming", listPath: "/programming-languages" },
+  // { listIcon: <ScienceIcon />, listText: "Sandbox", listPath: "/sandbox" },
+  // { listIcon: <Money />, listText: "Crypto", listPath: "/crypto" },
+  { listIcon: <PhotoAlbum />, listText: "Gallery", listPath: "/photos" },
+  { listIcon: <ContactMail />, listText: "About", listPath: "/about" },
+  
 ];
 
 const Navbar = () => {
