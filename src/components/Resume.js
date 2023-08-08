@@ -138,7 +138,7 @@ const Resume = () => {
             Graduate Software Engineer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Entelect
+            Entelect Software
           </Typography>
           <Typography
             variant="subtitle1"
@@ -147,7 +147,23 @@ const Resume = () => {
           >
             Starting my career off as a Graduate Software Engineer at Entelect in January 2023. 
             I have attended the Bootcamp at the Joburg HQ and am now based in Cape Town. Currently 
-            assigned to the FNZ OneX project for Momentum and Stanlib.
+            part of the FNZ OneX team.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            display="block"
+            className={classes.subtitle2}
+          >
+            Achievements and awards:<br></br>
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            display="block"
+            className={classes.subtitle1}
+          >
+            Entelect Company Cup 3rd Place 2023<br></br>
           </Typography>
         </Box>
 

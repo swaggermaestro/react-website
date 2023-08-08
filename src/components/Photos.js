@@ -45,16 +45,13 @@ const Photos = () => {
         <div className={classes.bigContainer}>
             <div className="box">
                 <h1 className={classes.captionStyle}>Gallery</h1>
-                <p>Watch this space</p>
+                <p>Some photography stuff to come in the future. But in the meanwhile, look at these pics:</p>
                 <img className={classes.imgStyle} src={Photo5} alt="Table Mountain"/>
                 <img className={classes.imgStyle} src={Photo4} alt="Sunset"/>
                 <img className={classes.imgStyle} src={Photo1} alt="Camps Bay"/>
                 <img className={classes.imgStyle} src={Photo2} alt="Palm Trees"/>
                 <img className={classes.imgStyle} src={Photo3} alt="Paraglider"/>
                 
-                
-
-
             </div>
                 
 
