@@ -54,77 +54,76 @@ const ProgrammingLanguages = [
   {
     name: "Java",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
-    caption: "100+ projects"
+    caption: ""
   },
   {
     name: "Python",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-    caption: "100+ projects"
+    caption: ""
   },
   {
     name: "SQL",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-    caption: "100+ projects"
+    caption: ""
   },
   {
     name: "JavaScript",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    caption: "50+ projects"
+    caption: ""
+  },
+  {
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    caption: ""
   },
   {
     name: "C",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
-    caption: "50+ projects"
+    caption: ""
   },
   {
     name: "HTML5",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-    caption: "50+ projects"
+    caption: ""
   },
   {
     name: "CSS",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    caption: "50+ projects"
+    caption: ""
   },
   {
     name: "Spring",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
-    caption: "30+ projects"
+    caption: ""
   }
 
 ]
 
 const mediumComfort = [
   {
-    name: "React",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-    caption: "20+ projects"
+    name: "C#",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    caption: ""
   },
   {
     name: "Haskell",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg",
-    caption: "20+ projects"
+    caption: ""
   },
   {
     name: "Angular",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
-    caption: "15+ projects"
+    caption: ""
   },
   {
     name: "Kotlin",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
-    caption: "10+ projects"
-  },
-
-  {
-    name: "C#",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-    caption: "10+ projects"
+    caption: ""
   },
   {
     name: "Android",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
-    caption: "10+ projects"
+    caption: ""
   }
 ]
 
@@ -132,7 +131,7 @@ const lowComfort = [
   {
     name: "Vue.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-    caption: "5+ projects"
+    caption: ""
   },
 
 
@@ -156,7 +155,7 @@ function Programming() {
             </div>
 
             <p>
-              <b>{item.name}</b> - &#8205;
+              <b>{item.name}</b>&#8205;
             </p>
 
             <p>{item.caption}</p>
@@ -176,7 +175,7 @@ function Programming() {
             </div>
 
             <p>
-              <b>{item.name}</b> - &#8205;
+              <b>{item.name}</b>&#8205;
             </p>
 
             <p>{item.caption}</p>
@@ -196,7 +195,7 @@ function Programming() {
             </div>
 
             <p>
-              <b>{item.name}</b> - &#8205;
+              <b>{item.name}</b>&#8205;
             </p>
 
             <p>{item.caption}</p>
