@@ -80,13 +80,14 @@ const Contact = () => {
           </Typography>
 
           <Typography className={classes.plainText}>
-            My name is Simeon, and I am a 22-year-old Software Engineer residing in Cape Town, South Africa. I'm originally from Centurion, Pretoria, and I completed my BSc Honours degree in Computer Science at Stellenbosch University.
-            I consider my top skill to be how I work with people. In the IT industry, there exists a common disconnect between the professionals developing a product and the consumers using it. I consider myself to be a bridge between these two entities, 
-            as I aspire to create usable, efficient, and consumer-focused software. 
+          My name is Simeon, and I am a 23-year-old Software Engineer residing in Cape Town, South Africa. I am originally from Centurion in Gauteng
+          and I completed my BSc Honours degree in Computer Science at Stellenbosch University. I consider my top skill to be my ability to work with people. 
+          In the IT industry, there is often a disconnect between the professionals developing a product and the consumers using it. I see myself as a bridge 
+          between these two entities, as I aspire to create usable, efficient, and consumer-focused software.
             <br/>
             <br/>
-            My long-term goal is simply to make a positive impact on the lives of everyday South Africans. I am highly optimistic about our country, and I believe that if we string together, we can achieve anything.
-          </Typography>
+            My long-term goal is simply to have a positive impact on the lives of everyday South Africans. I am highly optimistic about our country, and I believe 
+            that if we work together, we can achieve anything.</Typography>
           </Grid>
     </Box>
   );

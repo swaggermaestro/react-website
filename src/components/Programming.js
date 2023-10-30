@@ -146,7 +146,7 @@ function Programming() {
         <h1>Programming Experience</h1>
         <div className={classes.categoryHeader}>
           <h2 className={classes.captionStyle}>High proficiency</h2>
-          <p>Frameworks which I know inside out and can code virtually anything with.</p>
+          <p>Languages and frameworks which I know inside out and can code virtually anything with.</p>
         </div>
         {ProgrammingLanguages.map((item, index) => (
           <div className={classes.listItem}>
@@ -164,7 +164,7 @@ function Programming() {
 
         <div className={classes.categoryHeader}>
           <h2 className={classes.captionStyle}>Medium proficiency</h2>
-          <p>Frameworks which I have worked with in the past, and am confident in my abilities to build an MVP with.</p>
+          <p>Languages and frameworks which I have worked with in the past, and am confident in my abilities to build an MVP with.</p>
 
         </div>
 
@@ -185,7 +185,7 @@ function Programming() {
 
         <div className={classes.categoryHeader}>
           <h2 className={classes.captionStyle}>Low proficiency</h2>
-          <p>Frameworks which I have touched, but not properly explored.</p>
+          <p>Languages and frameworks which I have touched, but not properly explored.</p>
         </div>
 
         {lowComfort.map((item, index) => (
