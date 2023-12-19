@@ -285,7 +285,7 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             90% Average (8 Distinctions)
-            Subjects: Mathematics, Physical Sciences, Accounting, Alpha
+            Subjects: Mathematics, IT, Physical Sciences, Accounting, Alpha
             Mathematics, Afrikaans Home Language, English First Additional Language, Life Orientation.
           </Typography>
           <Typography

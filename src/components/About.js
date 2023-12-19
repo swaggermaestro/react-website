@@ -1,97 +1,7 @@
 import React from "react";
-import { makeStyles, withStyles } from "@material-ui/core/styles";
-import Box from "@material-ui/core/Box";
-import TextField from "@material-ui/core/TextField";
+import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import Grid from "@material-ui/core/Grid";
 
-const useStyles = makeStyles((theme) => ({
-  contactContainer: {
-    background: "#233",
-    height: "94vh",
-  },
-  mainContainer: {
-    background: "#233",
-    height: "100%",
-    // height: "95vh",
-    position: "absolute",
-  },
-  heading: {
-    paddingTop: "3rem",
-    color: "tomato",
-    textAlign: "center",
-    textTransform: "uppercase",
-    marginBottom: "1rem",
-  },
-  plainText: {
-    margin: "2rem",
-    color: "white",
-    textAlign: "center",
-  },
-  form: {
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    position: "absolute",
-  },
-  input: {
-    color: "#fff",
-  },
-  button: {
-    marginTop: "1rem",
-    color: "tomato",
-    borderColor: "tan",
-  },
-  field: {
-    margin: "1rem 0rem",
-  },
-}));
-
-const InputField = withStyles({
-  root: {
-    "& label.Mui-focused": {
-      color: "tomato",
-    },
-    "& label": {
-      color: "tan",
-    },
-    "& .MuiOutlinedInput-root": {
-      "& fieldset": {
-        borderColor: "tan",
-      },
-      "&:hover fieldset": {
-        borderColor: "tan",
-      },
-      "&.Mui-focused fieldset": {
-        color: "#fff",
-        borderColor: "tan",
-      },
-    },
-  },
-})(TextField);
-
-const Contact = () => {
-  const classes = useStyles();
-  return (
-    <Box component="div" className={classes.mainContainer}>
-      <Grid container justify="center">
-      <Typography variant="h5" className={classes.heading}>
-            More about me
-          </Typography>
-
-          <Typography className={classes.plainText}>
-          My name is Simeon, and I am a 23-year-old Software Engineer residing in Cape Town, South Africa. I am originally from Centurion in Gauteng
-          and I completed my BSc Honours degree in Computer Science at Stellenbosch University. I consider my top skill to be my ability to work with people. 
-          In the IT industry, there is often a disconnect between the professionals developing a product and the consumers using it. I see myself as a bridge 
-          between these two entities, as I aspire to create usable, efficient, and consumer-focused software.
-            <br/>
-            <br/>
-            My long-term goal is simply to have a positive impact on the lives of everyday South Africans. I am highly optimistic about our country, and I believe 
-            that if we work together, we can achieve anything.</Typography>
-          </Grid>
-    </Box>
-  );
-};
 
 const useStyles2 = makeStyles((theme) => ({
   bigContainer: {
@@ -142,20 +52,30 @@ const Photos = () => {
           <br></br>
 
           <Typography className={classes.textStyle}>
-            My name is Simeon, and I am a 22-year-old Software Engineer residing in Cape Town, South Africa. I'm originally from Centurion, Pretoria, and I completed my BSc Honours degree in Computer Science at Stellenbosch University.
-            I consider my top skill to be how I work with people. In the IT industry, there exists a common disconnect between the professionals developing a product and the consumers using it. I consider myself to be a bridge between these two entities, 
-            as I aspire to create usable, efficient, and consumer-focused software. 
+          My name is Simeon, and I am a {getAge("2000/05/25")}-year-old Software Engineer currently working for Entelect, residing in Cape Town. I am originally from Centurion in Gauteng
+          and I completed my BSc Honours degree in Computer Science at Stellenbosch University. I consider my top skill to be my ability to work with people. 
+          In the IT industry, there is often a disconnect between the professionals developing a product and the consumers using it. I see myself as a bridge 
+          between these two entities, as I aspire to create usable, efficient, and consumer-focused software.
             <br/>
             <br/>
             My long-term goal is simply to make a positive impact on the lives of everyday South Africans. I am highly optimistic about our country, and I believe that if we string together, we can achieve anything.
           </Typography>
           </div>
-              
-
       </div>
 
   );
 };
+
+function getAge(dateString) {
+  var today = new Date();
+  var birthDate = new Date(dateString);
+  var age = today.getFullYear() - birthDate.getFullYear();
+  var m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+  }
+  return age;
+}
 
 
 export default Photos;
